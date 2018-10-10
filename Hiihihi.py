@@ -1,7 +1,7 @@
 print("enter number")
-x= input()
+x= int(input())
 print("second number")
-y= input()
+y= int(input())
 
 if x%2==0:
      if y%2==0:
