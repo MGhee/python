@@ -54,3 +54,12 @@ l2=["mama","anca"]
 def intersection(l1, l2):
     return[val for val in l1 if val in l2]
 print(intersection(l1,l2))
+
+def nums_ad(*nums):
+    total=0
+    for val in nums:
+        total +=val
+    return total
+
+print(nums_ad(1,1,2,2,3,4,5,6))
+print(nums_ad(1,2))
